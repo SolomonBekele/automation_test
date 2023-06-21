@@ -1,0 +1,10 @@
+<testdata>
+  <login>
+    <email>sol@example.com</email>
+    <password>password123</password>
+  </login>
+  <login>
+    <email>jane@example.com</email>
+    <password>password456</password>
+  </login>
+</testdata>

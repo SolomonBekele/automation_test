@@ -1,0 +1,7 @@
+<payment>
+    <firstname>John</firstname>
+    <lastname>Doe</lastname>
+    <email>johndoe@example.com</email>
+    <country>United States</country>
+    <!-- Add more data as needed -->
+</payment>

@@ -1,0 +1,8 @@
+<testdata>
+    <product_search>
+        <search_term>laptop</search_term>
+    </product_search>
+    <product_category>
+        <category>Books</category>
+    </product_category>
+</testdata>

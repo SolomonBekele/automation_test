@@ -1,0 +1,18 @@
+<testdata>
+  <registration>
+    <gender>male</gender>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+    <email>soal@example.com</email>
+    <password>password123</password>
+    <confirmPassword>password123</confirmPassword>
+  </registration>
+  <registration>
+    <gender>female</gender>
+    <firstName>Jane</firstName>
+    <lastName>Smith</lastName>
+    <email>jane@example.com</email>
+    <password>password456</password>
+    <confirmPassword>password456</confirmPassword>
+  </registration>
+</testdata>
