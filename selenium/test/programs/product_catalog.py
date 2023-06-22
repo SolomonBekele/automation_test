@@ -10,8 +10,8 @@ class ProductCatalogTest(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
 
-    def tearDown(self):
-        self.driver.quit()
+    # def tearDown(self):
+    #     self.driver.quit()
 
     def test_product_search(self):
         product_data = self.retrieve_product_data('../xml/product_data.xml', 'product_search')

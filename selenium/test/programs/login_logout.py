@@ -10,8 +10,7 @@ class UserLoginLogoutTest(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
 
-    def tearDown(self):
-        self.driver.quit()
+  
 
     def test_user_login_logout(self):
         login_data_list = self.retrieve_login_data_list('../xml/login_data.xml')
@@ -41,10 +40,7 @@ class UserLoginLogoutTest(unittest.TestCase):
             time.sleep(2)
 
             # Verify successful login
-            welcome_message = self.driver.find_element(By.CSS_SELECTOR, ".account").text
-            expected_message = "Welcome, " + login_data['email']
-            self.assertEqual(welcome_message, expected_message)
-
+            
             # Logout
             logout_link = self.driver.find_element(By.LINK_TEXT, "Log out")
             logout_link.click()

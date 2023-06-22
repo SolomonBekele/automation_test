@@ -11,8 +11,6 @@ class UserRegistrationTest(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
 
-    def tearDown(self):
-        self.driver.quit()
 
     def test_user_registration(self):
         registration_data_list = self.retrieve_registration_data_list('../xml/registration_data.xml')
